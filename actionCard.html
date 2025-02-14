@@ -7,32 +7,32 @@
         margin: 0px;
         padding: 0px;
         font-family: sans-serif;
+        font-weight: 300;
       }
 
       .card {
         width: 400px;
-        height: 300px;
+        height: 320px;
         border: 1px solid rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
         padding: 30px;
+        margin: auto;
+        margin-top: 10%;
       }
 
       .card > h1 {
         color: rgba(0, 0, 0, 0.6);
         font-size: 32px;
         padding-bottom: 14px;
-        border-bottom: 3px solid black;
-        font-weight: 300;
       }
 
       .card > blockquote {
         color: rgba(0, 0, 0, 0.5);
         margin-top: 16px;
-        font-weight: 300;
         font-size: 16px;
       }
 
-      .card button {
+      .card > button {
         background-color: rgba(30, 143, 255, 0.782);
         margin: 16px 0px;
         width: 100%;
@@ -40,17 +40,35 @@
         border: 1px solid white;
         color: white;
         border-radius: 100px;
+        font-size: 18px;
+      }
+
+      .card > p {
+        font-size: 11px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      #seprator {
+        height: 2px;
+        width: 40px;
+        background-color: black;
+        border-radius: 20px;
       }
     </style>
   </head>
   <body>
     <article class="card">
       <h1>Bulid your first charbot in 10 minutes!</h1>
+      <div id="seprator"></div>
       <blockquote class="card-quote">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </blockquote>
       <button>TRY NOW →</button>
+      <p>
+        By clicking try now you create an accont and agree to our Terms and
+        Conditions and Privacy Policy
+      </p>
     </article>
   </body>
 </html>
